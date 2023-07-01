@@ -5,24 +5,18 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": ".",
+    "rootDir": "src",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*", "./dist/*", ""],
-      "pages/*": ["src/pages/*"],
-      "components/*": ["src/components/*"],
-      "types/*": ["src/@types/*"],
-      "public/*": ["public/*"]
+      "@/*": ["src/*"]
     },
-    /* Linting */
-    "strict": true,
+    "strict": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
