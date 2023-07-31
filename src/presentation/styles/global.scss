@@ -1,0 +1,29 @@
+@import './colors.scss';
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+input[type=email],
+input[type=password],
+input[type=text] {
+  border: 1px solid $primary-light;
+  border-radius: 6px;
+
+  &:focus {
+    outline: 1px solid $primary-dark;
+  }
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
