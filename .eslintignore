@@ -1,8 +1,0 @@
-node_modules
-.vscode
-coverage
-public
-*.scss
-*.css
-*.svg
-vite.config.ts
